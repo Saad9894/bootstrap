@@ -93,7 +93,17 @@
       line-height: 1.4;
     }
 
-    @media only screen and (max-width:992px) {}
+    @media only screen and (max-width:992px) {
+      img.logo {
+        width: 37%;
+      }
+    }
+
+    @media only screen and (max-width:576px) {
+      img.logo {
+        width: 52%;
+      }
+    }
   </style>
 </head>
 
@@ -101,7 +111,7 @@
   <header class="head h-50 w-100 ">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark">
       <div class="container-fluid">
-        <img class="logo " width="20%" src="photo/logo2-removebg-preview.png" alt="">
+        <img class="logo " width="20%" src="photo/Screenshot__122_-removebg-preview.png" alt="">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon text-light">
@@ -126,100 +136,103 @@
       <h1 class="texts text-center m-4">Our Gallery</h1>
     </div>
     <div class="gallery m-5  justify-content-center">
-      <div class="divs d-flex flex-column flex-wrap">
-
-        <div class="card m-4">
-          <img class="seoul overflow-hidden" style="height: 80vw; width: 100%;" src="photo/gallery1.jpeg" alt="">
-          <div class="card__content text-center">
-            <p class="card__title">Island</p>
-            <p class="card__description">The islands that rise from the floors of the ocean basins are volcanic. Lava
-              accumulates to enormous thickness until it finally protrudes above the ocean surface. The piles of lava
-              that
-              form Hawaii rise as high as 32,000 feet (9,700 metres) above the ocean floor.</p>
-          </div>
-        </div>
-        <div class="card m-4">
-          <img class=" overflow-hidden" src="photo/canada.avif" alt="">
-          <div class="card__content text-center">
-            <p class="card__title">Canada</p>
-            <p class="card__description">Canada It is the second largest country in the world, but it has only one-half
-              of
-              one percent of the world's population.
-
-              Canada features black-blue lakes, numerous rivers, majestic western mountains, rolling central plains, and
-              forested eastern valleys. </p>
-          </div>
-        </div>
-
-        <div class="card m-4">
-          <img class="seoul overflow-hidden" src="photo/seoul.avif" alt="" style="height: 100%; width: 100%;">
-          <div class="card__content text-center">
-            <p class="card__title">Seoul</p>
-            <p class="card__description">Seoul, officially the Seoul Special Metropolitan City, is the capital and
-              largest
-              metropolis of the Republic of Korea (commonly known as South Korea). Seoul is the world's 16th largest
-              city,
-              and forms the heart of the Seoul Capital Area, which includes the surrounding Incheon metropolis and
-              Gyeonggi province.</p>
-          </div>
-        </div>
-
-      </div>
-      <div class="divs1 d-flex flex-column flex-wrap">
-
-        <div class="card m-4">
-          <img class="seoul overflow-hidden" style="height: 100%; width: 100%;" src="photo/goa4.jpg" alt="">
-          <div class="card__content text-center">
-            <p class="card__title">Goa</p>
-            <p class="card__description">The magical land of Goa is a land of celebrations and festivities. Snuggled in
-              the Konkan Coast Belt, It has a long coastline of approx 100 kilometers. Goa is primarily known for its
-              beautiful beaches which are engrossed with oscillating palm trees and an astonishing nightlife.</p>
-          </div>
-        </div>
-        <div class="card m-4">
-          <img class="seoul overflow-hidden" style="height: 100%; width:100% ;" src="photo/dubai.avif" alt="">
-          <div class="card__content text-center">
-            <p class="card__title">Dubai</p>
-            <p class="card__description">Dubai is a city of skyscrapers, ports, and beaches, where big business takes
-              place alongside sun-seeking tourism. Because of its large expatriate population, it feels like a Middle
-              Eastern melting pot, and the atmosphere is generally tolerant.</p>
-          </div>
-        </div>
-            <div class="card m-4">
-          <img class="seoul overflow-hidden" style="height: 100%;" src="photo/paries.avif" alt="">
-          <div class="card__content text-center">
-            <p class="card__title">Paris</p>
-            <p class="card__description">Paris is the capital and most populous city of France. Situated on the Seine
-              River, in the north of the country, it is in the centre of the Île-de-France region, also known as the
-              région parisienne, "Paris Region".</p>
-            </div>
-          </div>
-        </div>
-        <div class="divs2 d-flex flex-column flex-wrap">
-
-          <div class="card m-4">
-            <img class="seoul overflow-hidden" style="height: 100%;" src="photo/landon.jpg" alt="">
-            <div class="card__content text-center">
-              <p class="card__title">London</p>
-            <p class="card__description">London is the capital city of England and the United Kingdom. It is the most
-              populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants. Standing on
-              the River Thames, London has been a major settlement for two millennia, its history going back to its
-              founding by the Romans, who named it Londinium. London's ancient core, the City of London</p>
-          </div>
-        </div>
-        <div class="card m-4">
-          <img class="seoul overflow-hidden" style="height: 100%;" src="photo/Singapore.avif" alt="">
-          <div class="card__content text-center">
-            <p class="card__title">Singapore</p>
-            <p class="card__description">Singapore is a sunny, tropical island in Southeast Asia, off the southern tip
-              of
-              the Malay Peninsula. The city-state is 710 square kilometres and inhabited by five million people from
-              four
-              major communities; Chinese (majority), Malay, Indian and Eurasian. </p>
-          </div>
-        </div>
+      <div class="divs d-flex flex-wrap justify-content-center">
       </div>
     </div>
+
+    <div class="gallery d-flex flex-wrap justify-content-center">
+
+      <div class="card m-4">
+        <img class="seoul overflow-hidden" style="height: 80vw; width: 100%;" src="photo/gallery1.jpeg" alt="">
+        <div class="card__content text-center">
+          <p class="card__title">Island</p>
+          <p class="card__description">The islands that rise from the floors of the ocean basins are volcanic. Lava
+            accumulates to enormous thickness until it finally protrudes above the ocean surface. The piles of lava
+            that form Hawaii rise as high as 32,000 feet (9,700 metres) above the ocean floor.</p>
+        </div>
+      </div>
+      <div class="card m-4">
+        <img class=" overflow-hidden" src="photo/canada.avif" alt="">
+        <div class="card__content text-center">
+          <p class="card__title">Canada</p>
+          <p class="card__description">Canada It is the second largest country in the world, but it has only one-half
+            of
+            one percent of the world's population.
+
+            Canada features black-blue lakes, numerous rivers, majestic western mountains, rolling central plains, and
+            forested eastern valleys. </p>
+        </div>
+      </div>
+      <div class="card m-4">
+        <img class="seoul overflow-hidden" src="photo/seoul.avif" alt="" style="height: 100%; width: 100%;">
+        <div class="card__content text-center">
+          <p class="card__title">Seoul</p>
+          <p class="card__description">Seoul, officially the Seoul Special Metropolitan City, is the capital and
+            largest
+            metropolis of the Republic of Korea (commonly known as South Korea). Seoul is the world's 16th largest
+            city,
+            and forms the heart of the Seoul Capital Area, which includes the surrounding Incheon metropolis and
+            Gyeonggi province.</p>
+        </div>
+      </div>
+      <div class="card m-4">
+        <img class="seoul overflow-hidden" style="height: 100%; width: 100%;" src="photo/goa4.jpg" alt="">
+        <div class="card__content text-center">
+          <p class="card__title">Goa</p>
+          <p class="card__description">The magical land of Goa is a land of celebrations and festivities. Snuggled in
+            the Konkan Coast Belt, It has a long coastline of approx 100 kilometers. Goa is primarily known for its
+            beautiful beaches which are engrossed with oscillating palm trees and an astonishing nightlife.</p>
+        </div>
+      </div>
+      <div class="card m-4">
+        <img class="seoul overflow-hidden" style="height: 100%; width:100% ;" src="photo/dubai.avif" alt="">
+        <div class="card__content text-center">
+          <p class="card__title">Dubai</p>
+          <p class="card__description">Dubai is a city of skyscrapers, ports, and beaches, where big business takes
+            place alongside sun-seeking tourism. Because of its large expatriate population, it feels like a Middle
+            Eastern melting pot, and the atmosphere is generally tolerant.</p>
+        </div>
+      </div>
+      <div class="card m-4">
+        <img class="seoul overflow-hidden" style="height: 100%;" src="photo/paries.avif" alt="">
+        <div class="card__content text-center">
+          <p class="card__title">Paris</p>
+          <p class="card__description">Paris is the capital and most populous city of France. Situated on the Seine
+            River, in the north of the country, it is in the centre of the Île-de-France region, also known as the
+            région parisienne, "Paris Region".</p>
+        </div>
+      </div>
+      <div class="card m-4">
+        <img class="seoul overflow-hidden" style="height: 100%;" src="photo/landon.jpg" alt="">
+        <div class="card__content text-center">
+          <p class="card__title">London</p>
+          <p class="card__description">London is the capital city of England and the United Kingdom. It is the most
+            populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants. Standing on
+            the River Thames, London has been a major settlement for two millennia, its history going back to its
+            founding by the Romans, who named it Londinium. London's ancient core, the City of London</p>
+        </div>
+      </div>
+      <div class="card m-4">
+        <img class="seoul overflow-hidden" style="height: 100%;" src="photo/Singapore.avif" alt="">
+        <div class="card__content text-center">
+          <p class="card__title">Singapore</p>
+          <p class="card__description">Singapore is a sunny, tropical island in Southeast Asia, off the southern tip
+            of
+            the Malay Peninsula. The city-state is 710 square kilometres and inhabited by five million people from
+            four
+            major communities; Chinese (majority), Malay, Indian and Eurasian. </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
   </section>
   <footer class="py-4 py-md-5 bg-black" style="background:black;">
     <div>
@@ -228,7 +241,7 @@
           <div class="col-12 col-sm-6">
             <div class="footer-logo-wrapper text-start">
               <a href="#!">
-                <img src="photo/logo2-removebg-preview.png" alt="BootstrapBrain Logo" class="img-fluid " width="30%">
+                <img src="photo/Screenshot__122_-removebg-preview.png" alt="BootstrapBrain Logo" class="img-fluid " width="30%">
               </a>
             </div>
           </div>
@@ -249,7 +262,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                       class="bi bi-twitter-x" viewBox="0 0 16 16">
                       <path
-                      d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
                     </svg>
                   </a>
                 </li>

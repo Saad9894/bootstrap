@@ -17,19 +17,26 @@
   <style>
     * {
       font-family: "Bona Nova SC", serif;
-      color:black;
+      color: black;
     }
 
     .item {
       position: relative;
       overflow: hidden;
     }
-    
-		img.logo {
-			object-fit: cover;
-			height: 4vw;
-			width: 16%;
-		}
+
+    @media only screen and (max-width:992px) {
+      img.logo {
+        width: 37%;
+      }
+    }
+
+    @media only screen and (max-width:576px) {
+      img.logo {
+        width: 52%;
+      }
+    }
+
 
     .item img {
       height: auto;
@@ -45,7 +52,7 @@
       margin-top: 5%;
     }
 
-    .travel{
+    .travel {
       margin: 3% 7%;
     }
   </style>
@@ -55,7 +62,7 @@
   <header class="head h-50 w-100 ">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark">
       <div class="container-fluid">
-        <img class="logo " width="20%" src="photo/logo2-removebg-preview.png" alt="">
+        <img class="logo " width="20%" src="photo/Screenshot__122_-removebg-preview.png" alt="">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon text-light">
@@ -363,7 +370,8 @@
           <div class="col-12 col-sm-6">
             <div class="footer-logo-wrapper text-start">
               <a href="#!">
-                <img src="photo/logo2-removebg-preview.png" alt="BootstrapBrain Logo" class="img-fluid " width="30%">
+                <img src="photo/Screenshot__122_-removebg-preview.png" alt="BootstrapBrain Logo" class="img-fluid "
+                  width="30%">
               </a>
             </div>
           </div>

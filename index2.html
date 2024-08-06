@@ -29,15 +29,17 @@
 				flex-wrap: wrap;
 
 			}
+			img.logo {
+			width: 52%;
 		}
-        
-		 
-		img.logo {
-			object-fit: cover;
-			height: 4vw;
-			width: 16%;
 		}
-
+		@media only screen and (max-width:992px) { 
+			img.logo {
+             width: 37%  ;
+			}
+		}
+		
+	
 		.card:hover {
 			transform: scale(1.1);
 			transition: all 350ms ease-in-out;
@@ -140,6 +142,7 @@
 		#cards_landscape_wrap-2 .card-flyer .text-box h6 {
 			margin-top: 0px;
 			margin-bottom: 4px;
+		
 			font-size: 18px;
 			font-weight: bold;
 			text-transform: uppercase;
@@ -177,7 +180,7 @@
 	<header class="head h-50 w-100 ">
 		<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark">
 			<div class="container-fluid">
-				<img class="logo " width="20%" src="photo/logo2-removebg-preview.png" alt="">
+				<img class="logo " width="20%" src="photo/Screenshot__122_-removebg-preview.png" alt="">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon text-light">
@@ -409,7 +412,7 @@
 					<div class="col-12 col-sm-6">
 						<div class="footer-logo-wrapper text-start">
 							<a href="#!">
-								<img src="photo/logo2-removebg-preview.png" alt="BootstrapBrain Logo" class="img-fluid "
+								<img src="photo/Screenshot__122_-removebg-preview.png" alt="BootstrapBrain Logo" class="img-fluid "
 									width="30%">
 							</a>
 						</div>
