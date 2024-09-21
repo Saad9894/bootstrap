@@ -19,6 +19,24 @@
 			font-family: "Bona Nova SC", serif;
 		}
 
+		img.FadeUpImage.w-40.mb-1.text-center {
+			margin: -14%;
+		}
+
+		p.country.text-dark.fs-4 {
+			text-align: center;
+		}
+
+		img.FadeUpImage.w-40.mb-1.text-center {
+			width: 100%;
+			height: 178px;
+		}
+
+		.book {
+			text-align: center;
+			margin: auto;
+		}
+
 		@media only screen and (max-width:992px) {
 			.travelers {
 				flex-wrap: wrap;
@@ -42,6 +60,11 @@
 				width: 52%;
 			}
 
+			img.FadeUpImage.w-40.mb-1.text-center {
+				width: 126%;
+				height: 94px;
+			}
+
 			.visit {
 				width: 100%;
 				margin: auto;
@@ -49,6 +72,10 @@
 
 			div#navbarNav {
 				font-size: 26px;
+			}
+
+			.link-wrapper ul {
+				flex-wrap: wrap;
 			}
 		}
 
@@ -86,7 +113,6 @@
 
 		header {
 			width: 100%;
-			/* height: 100px; */
 		}
 
 		.px-0:hover {
@@ -223,9 +249,10 @@
 				height: 75vw;
 			}
 		}
-		.link-wrapper ul{
+
+		/* .link-wrapper ul{
 			flex-wrap: wrap;
-		}
+		} */
 
 		.card-body {
 			color: #000000;
@@ -594,10 +621,9 @@
 			<h1 class="text-center">Features to replace all your other tools</h1>
 			<div class="add d-flex p-5 g-6 flex-wrap">
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4  ">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4  ">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
-							<div><img alt="" src="photo/MainFeature1.png " class="FadeUpImage  w-40 mb-1 text-center"
-									style="width: 80%;">
+							<div><img alt="" src="photo/MainFeature1.png " class="FadeUpImage  w-40 mb-1 text-center">
 							</div>
 						</div>
 						<div class="d-flex flex-column col-7 col-sm-12" style="font-size: 8px;">
@@ -610,10 +636,9 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
-							<div><img alt="" src="photo/MainFeature2.png " class="FadeUpImage  w-40 mb-1 text-center"
-									style="width: 80%;">
+							<div><img alt="" src="photo/MainFeature2.png " class="FadeUpImage  w-40 mb-1 text-center">
 							</div>
 						</div>
 						<div class="d-flex flex-column col-7 col-sm-12" style="font-size: 8px;">
@@ -626,10 +651,9 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
-							<div><img alt="" src="photo/MainFeature3.png " class="FadeUpImage  w-40 mb-1 text-center"
-									style="width: 80%;">
+							<div><img alt="" src="photo/MainFeature3.png " class="FadeUpImage  w-40 mb-1 text-center">
 							</div>
 						</div>
 						<div class="d-flex flex-column col-7 col-sm-12" style="font-size: 8px;">
@@ -645,10 +669,9 @@
 			</div>
 			<div class="adds d-flex flex-wrap m-4">
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
-							<div><img alt="" src="photo/MainFeature4.png " class="FadeUpImage  w-40 mb-1 text-center"
-									style="width: 80%;">
+							<div><img alt="" src="photo/MainFeature4.png " class="FadeUpImage  w-40 mb-1 text-center">
 							</div>
 						</div>
 						<div class="d-flex flex-column col-7 col-sm-12" style="font-size: 8px;">
@@ -662,10 +685,9 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
-							<div><img alt="" src="photo/MainFeature5.png " class="FadeUpImage  w-40 mb-1 text-center"
-									style="width: 80%;">
+							<div><img alt="" src="photo/MainFeature5.png " class="FadeUpImage w-40 mb-1 text-center">
 							</div>
 						</div>
 						<div class="d-flex flex-column col-7 col-sm-12" style="font-size: 8px;">
@@ -679,24 +701,40 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
-						<div class="col-5 px-0 col-sm-12 d-flex justify-content-center mb-3 overflow-hidden"
-							width="50%">
-							<div><img alt="" src="photo/MainFeature6.png " class="FadeUpImages  w-40 mb-1 text-center"
-									style="width: 80%;">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
+						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
+							<div><img alt="" src="photo/MainFeature6.png " class="FadeUpImage w-40 mb-1 text-center">
 							</div>
 						</div>
 						<div class="d-flex flex-column col-7 col-sm-12" style="font-size: 8px;">
 							<h4
-								class="font-weight-bold fs-5 mb-1 line-height-1 LandingPageFeatureTile__header font-weight-bold text-sm-center mb-3 LandingPageHeading__color">
-								Get personalized suggestions</h4>
-							<p class=" text-sm-center fs-6" style="width: 100%;">Find the best places to visit with
-								smart
-								recommendations based on your itinerary.</p>
+							class="font-weight-bold fs-5 mb-1 line-height-1 LandingPageFeatureTile__header font-weight-bold text-sm-center mb-3 LandingPageHeading__color">
+							Get personalized suggestions</h4>
+						<p class=" text-sm-center fs-6" style="width: 100%;">Find the best places to visit with
+							smart
+							recommendations based on your itinerary.</p>
 						</div>
 					</div>
 				</div>
+				<!-- <div class="col-sm-4 col-lg-4" width="50%">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
+						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
+						</div>
+						<div><img alt="" src="photo/MainFeature6.png " class="FadeUpImage w-40 mb-1 text-center">
+						</div>
+					</div>
+					<div class="d-flex flex-column col-7 col-sm-12" style="font-size: 8px;">
+						<h4
+							class="font-weight-bold fs-5 mb-1 line-height-1 LandingPageFeatureTile__header font-weight-bold text-sm-center mb-3 LandingPageHeading__color">
+							Get personalized suggestions</h4>
+						<p class=" text-sm-center fs-6" style="width: 100%;">Find the best places to visit with
+							smart
+							recommendations based on your itinerary.</p>
+					</div>
+					
+				</div> -->
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -708,7 +746,7 @@
 			<p class="text-center fs-4"> ,flight deals,export to Google maps,and much more</p>
 			<div class="offline d-flex p-5 g-6 flex-wrap">
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
 							<div><img alt="" src="photo/offline1.png " class="FadeUpImage  w-40 mb-1 text-center"
 									style="width: 80%;">
@@ -725,7 +763,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
 							<div><img alt="" src="photo/offline2.png " class="FadeUpImage  w-40 mb-1 text-center"
 									style="width: 80%;">
@@ -742,7 +780,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-lg-4" width="50%">
-					<div class="d-flex reverse-row align-items-center d-sm-block mb-4">
+					<div class="super flex-column d-flex reverse-row align-items-center d-sm-block mb-4">
 						<div class="col-5 px-0 col-sm-12 d-flex flex-row justify-content-center mb-3 overflow-hidden">
 							<div><img alt="" src="photo/offline3.png " class="FadeUpImage  w-40 mb-1 text-center"
 									style="width: 80%;">
@@ -907,7 +945,7 @@
 				<p><a class="text-decoration-none " href="">BookWithMatrix</a></p>
 			</div>
 			<div class="life flex-wrap ">
-				<p class="text-dark fs-4">As featured in</p>
+				<p class="country text-center text-dark fs-2">As featured in</p>
 				<div class="pic d-flex justify-content-center gap-6">
 					<img style="width: 15%;" src="photo/Traveling_Lifestyle_15d5630e7c.png" alt="">
 					<img style="width: 15%;" src="photo/Lifehacker_cea733095f.png" alt="">
@@ -960,7 +998,7 @@
 					<div class="col-12 col-sm-6">
 						<div class="footer-logo-wrapper text-start">
 							<a href="#!">
-								<img  src="photo/Screenshot__122_-removebg-preview.png" alt="BootstrapBrain Logo"
+								<img src="photo/Screenshot__122_-removebg-preview.png" alt="BootstrapBrain Logo"
 									class="img-fluid " width="48%">
 							</a>
 						</div>
